@@ -80,7 +80,7 @@ for i=1:num_of_gene
  %% Get the targetting sequence region 
     position = true(Fasta_length,1); % position is logical (now all true and change the seq to false later)
 
-    for p=1:length(rem_start)
+    for p=1:length(rem_start) % the number of the pair of 'rem_start' and 'rem_end'
     position(rem_start(p):rem_end(p)) = 0; % change to false if sequence is removed
     
     end
@@ -105,15 +105,22 @@ for i=1:num_of_gene
 
 end 
 
-%% Create the table
+%% Create the Matlab table and save
 summary_table = table(targets_name_all, length_all, hairpin_type_all, target_seq_all); % continue adding all columns
-
 % Label the table headers
 summary_table.Properties.VariableNames = {'Gene', 'Length', 'Hairpin', 'Target sequence region'};
+% Save the Matlab table
+save([out_dir '/TargetSequence_Summary.mat'], 'summary_table');
+
+%% Create the excel table
+target_seq_all_vector = cellfun(@(x) x(:), cellfun(@(x) x.', target_seq_all, 'UniformOutput', false), 'UniformOutput', false);
+summary_table_excel = table(targets_name_all, length_all, hairpin_type_all, target_seq_all_vector); % continue adding all columns
+
+% Label the table headers
+summary_table_excel.Properties.VariableNames = {'Gene', 'Length', 'Hairpin', 'Target sequence region'};
  
 % Save the table
-writetable(summary_table, [out_dir '/TargetSequence_Summary.csv']);
-save([out_dir '/TargetSequence_Summary.mat'], 'summary_table');
+writetable(summary_table_excel, [out_dir '/TargetSequence_Summary.csv']);
 
 % % Set the base headers
 % baseHeaders = {'Gene', 'Length', 'hairpin'};
@@ -136,7 +143,10 @@ save([out_dir '/TargetSequence_Summary.mat'], 'summary_table');
 % 
 % summary_table.Properties.VariableNames = headers;
 
+target_seq_all_vector = target_seq_all{1}.';
+target_seq_all_vector = target_seq_all_vector(:);
 
+target_seq_all_vector2 = cellfun(@(x) x(:), cellfun(@(x) x.', target_seq_all, 'UniformOutput', false), 'UniformOutput', false);
 
 
 
