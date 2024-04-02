@@ -150,7 +150,15 @@ if max_probe_number > 0
 
     %% save data
     for i=1:num_of_gene
-        probe_pair_number(i) = size(All_probe_list_reduced{i}, 1);
+        probe_pair_number(i) = size(All_probe_list_reduced{i}, 1);        
+
+        Fasta_header_cell = {Fasta_header(i), '', '', '', '' , ''};  % to make compatible to cat
+        Fasta_header_string = string(Fasta_header_cell);
+        
+        Odd_header = strcat('Odd probe_', hairpin_type_all(i));
+        Even_hearder = strcat('Even probe_', hairpin_type_all(i));
+        Export_list_Header = cat(2, Odd_header, 'Start', 'End', Even_hearder, 'Start', 'end');
+
         Export_list = [Fasta_header_string; Export_list_Header; All_probe_list_reduced{i}];
 
         writematrix(Export_list, fullfile(out_dir, 'Reduced', ['Probe_list_' targets_name_all{i} '.csv']));
