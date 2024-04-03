@@ -99,9 +99,9 @@ end
 
 %% Save summary
 
-     Header_table = ["Target_name", "Sequence_length", "Probe_pair_number"];
+     Header_table = ["Target_name", "Sequence_length", "Probe_pair_number", "Probe_Hapirpin"];
      ProbeSequence_length_list = probe_pair_number .* 90 ; % one pair length is 45*2 = 90
-     Summary_table_pre = cat(2, string(targets_name_all), ProbeSequence_length_list, probe_pair_number);
+     Summary_table_pre = cat(2, string(targets_name_all), ProbeSequence_length_list, probe_pair_number, hairpin_type_all);
      
      Summary_table = cat(1, Header_table, Summary_table_pre);
      writematrix(Summary_table, fullfile(out_dir, 'Probe_design_summary.csv'));
@@ -167,9 +167,9 @@ if max_probe_number > 0
     end
 
 %% Save summary
-    Header_table = ["Target_name", "Sequence_length", "Probe_pair_number"];
+    Header_table = ["Target_name", "Sequence_length", "Probe_pair_number", "Probe_Hapirpin"];
     ProbeSequence_length_list = probe_pair_number .* 90 ; % one pair length is 45*2 = 90
-    Summary_table_pre = [string(targets_name_all), ProbeSequence_length_list, probe_pair_number];
+    Summary_table_pre = [string(targets_name_all), ProbeSequence_length_list, probe_pair_number, hairpin_type_all];
 
     Summary_table = [Header_table; Summary_table_pre];
     writematrix(Summary_table, fullfile(out_dir, 'Reduced', 'Probe_design_summary_reduced.csv'));
