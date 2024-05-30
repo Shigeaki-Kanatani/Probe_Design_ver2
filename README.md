@@ -140,8 +140,7 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
 3.2. After clicking on the "Alignments" tab:
 
-<img width="129![Uploading Screenshot 2024-05-30 at 15.39.17.png…]()
-5" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/f555ba19-8681-4a97-9afa-430f7c5df546">
+<img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/327106bc-f5c3-402f-b543-439e56ca2cab">
 
 
 5. specify the regions which are not used for probe design:
