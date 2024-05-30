@@ -136,6 +136,7 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 3. From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (step-2). Also save the html file as the record in that folder.
 
 3.1. First page that appears (by default Discription Tab):
+
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4">
 
 3.2. After clicking on the "Alignments" tab:
@@ -155,6 +156,11 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
    
 <img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05">
 
+   5.3. The ExcludeRegion.csv file should look like this:
+   
+   <img width="220" alt="Screenshot 2024-05-30 at 16 22 17" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4054981f-1105-4b2a-8a99-4ce174a79a41">
+
+   
 6. Specify the block by opening a an Excel sheet type B(number from 1 to 5), e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv
    
    <img width="264" alt="Screenshot 2024-05-30 at 16 13 44" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/adc955f8-1cad-44e0-8566-f1fd7aebf09a">
