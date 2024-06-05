@@ -15,6 +15,8 @@ Here, we show the practical example of how to use this script below using a mous
 Visit NCBI Gene page and search the reference sequences of your target mRNAs.  
 https://www.ncbi.nlm.nih.gov/gene
 
+Download the FASTA sequences of your targets. The followings are the example of Gad1 and Tph2 from mouse (Mus musculus).
+
 ### Mouse Gad1 gene 
 It had 10 isoform at mRNA level. Here we picked the longest one which was 
 mRNA reference sequence NM_001420099, 3561 bp
