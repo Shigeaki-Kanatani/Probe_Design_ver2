@@ -9,12 +9,13 @@ Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, 
 bioRxiv 2022.12.28.521740 
 doi: https://doi.org/10.1101/2022.12.28.521740
 
+
 The overall workflow of the script is
 1.	Obrain reference sequence from NCBI
 2.	Perform BLAST and remove similar sequences
 3.	Run the script here to have probe sequences
 
-Here, we shows the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done at 2024-May-30)
+Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done at 2024-May-30)
    
 ## Example1, Mouse Gad1 gene, 
 It has 10 isoform at mRNA level, so pick the longest one which is 
