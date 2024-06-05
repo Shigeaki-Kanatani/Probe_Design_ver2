@@ -12,7 +12,7 @@ Here, we show the practical example of how to use this script below using a mous
 
 ## 2. Example 
 
-### Obtain reference sequence from NCBI
+### 1. Obtain reference sequence from NCBI
 
 - Visit NCBI Gene page and search the reference sequences of your target mRNAs.  
    - https://www.ncbi.nlm.nih.gov/gene
@@ -85,7 +85,7 @@ ATAATAACTAGATCTCCTGTAATTTTGTAGTAGTATATGACCAATCTCTGTGACTCGCTTAGCTGAAACC
 TAAGGCAATGTTTCTGAAGACCTCCGATACACTGACCAGTCCCACAAGTGTTTTTGAAGACATGAAACCC
 ACACTGTGCATTTAGGGTGTGCAAGAAGAATATAAATAAAATAAAAAATATTCTCCATGAA
 
-### Mouse Tph2 gene  
+#### Mouse Tph2 gene  
 mRNA reference sequence NM_173391.3, 2626 bp
 
 https://www.ncbi.nlm.nih.gov/nuccore/NM_173391.3
@@ -132,7 +132,7 @@ AGGGATTTGCTTCAGTTAGGTCTGATGAGATGTGCCATGGTCATAAGCCACTGCCCTTTTATGTTGGACA
 TCTGACAAGTCTACTGTAGTGTACATGCATGTTTATGTATTGACACAGAAAGAAAATTATTGCTTATAAA
 ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
-## 2. Perform BLAST sequence similarity check
+### 2. Perform BLAST sequence similarity check
 
 - 2.1. Go to NCBI gbast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
 - 2.2. Scroll down to the section for "BLAST Genomes" and type the organism which you are interested in (in this case it is Mus musculus (Mouse).  
@@ -146,7 +146,7 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
 <img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f">
 
-3. From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (step-2). Also save the html file as the record in that folder.
+- 2.7. From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (step-2). Also save the html file as the record in that folder.
 
 3.1. First page that appears (by default Discription Tab):
 
