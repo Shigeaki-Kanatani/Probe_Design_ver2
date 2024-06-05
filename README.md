@@ -152,6 +152,8 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 
 <img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f">
 
+<br>
+
 ### Download results
 
 - From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (See folder structure in Step No.1). Also save the html file as the record in that folder.
@@ -160,7 +162,7 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4">
 
-<br><br>
+<br>
 - After clicking on the "Alignments" tab:
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/327106bc-f5c3-402f-b543-439e56ca2cab">
@@ -173,11 +175,15 @@ Here, we specify the regions that are excluded from probe design due to similari
    
 <img width="1015" alt="Screenshot 2024-05-30 at 15 51 21" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/556d0489-2a5e-4e6e-99c2-9f0e60cc879f">
 
+<br>
+
 - Mark them or highlight them in csv file you downloaded earlier in step 3, then save the file for the record in the same folder with the name of highlighted version in .xls
 - Confirm what transcripts you want to remove.
 - Copy and paste this region into another Excel sheet and save it in the csv file in the main folder with ExcludeRegion.csv (step 1).
    
 <img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05">
+
+<br>
 
 - The ExcludeRegion.csv file should look like this:
    
