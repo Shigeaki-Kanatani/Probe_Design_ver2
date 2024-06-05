@@ -160,6 +160,9 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4">  
 
+
+
+
   
 - After clicking on the "Alignments" tab:
 
