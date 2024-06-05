@@ -4,13 +4,15 @@
 This program is version 2 of the probe design script used for the whole brain in situ hybridization method (Kanatani S et al., biorxiv, 2022). It has a more convenient probe design workflow than version 1.  
 
 The overall workflow of the script is
-1.	Obrain reference sequence from NCBI
+1.	Obtain reference sequence from NCBI
 2.	Perform BLAST and remove similar sequences
 3.	Run the script here to have probe sequences
 
 Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done on 2024-May-30)
 
 ## 2. Example 
+
+### Obtain reference sequence from NCBI
 
 - Visit NCBI Gene page and search the reference sequences of your target mRNAs.  
    - https://www.ncbi.nlm.nih.gov/gene
@@ -22,7 +24,7 @@ Here, we show the practical example of how to use this script below using a mous
    - Save the fasta file with the corresponding accession ID ended in .fasta
    - Subfolder: Blast
     
-### Mouse Gad1 gene 
+#### Mouse Gad1 gene 
 It had 10 isoform at mRNA level. Here we picked the longest one which was 
 mRNA reference sequence NM_001420099, 3561 bp
 
