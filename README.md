@@ -160,6 +160,7 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4">
 
+  
 - After clicking on the "Alignments" tab:
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/327106bc-f5c3-402f-b543-439e56ca2cab">
@@ -168,26 +169,26 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 
 - specify the regions which are not used for probe design:
    
-   5.1. In the html file (or blast result page step: 3.2.) Check the column specifies the percent identity and look down and find the rows that are below 100%:
+- In the html file (or blast result page step: 3.2.) Check the column specifies the percent identity and look down and find the rows that are below 100%:
    
 <img width="1015" alt="Screenshot 2024-05-30 at 15 51 21" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/556d0489-2a5e-4e6e-99c2-9f0e60cc879f">
 
-   5.2. Mark them or highlight them in csv file you downloaded earlier in step 3, then save the file for the record in the same folder with the name of highlighted version in .xls
-   5.3. Confirm what transcripts you want to remove.
-   5.4. Copy pase this region in another Excel sheet and save it in csv in the main folder with the name of ExcludeRegion.csv (step 1).
+- Mark them or highlight them in csv file you downloaded earlier in step 3, then save the file for the record in the same folder with the name of highlighted version in .xls
+- Confirm what transcripts you want to remove.
+- Copy paste this region in another Excel sheet and save it in csv in the main folder with the name of ExcludeRegion.csv (step 1).
    
 <img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05">
 
-   5.3. The ExcludeRegion.csv file should look like this:
+- The ExcludeRegion.csv file should look like this:
    
    <img width="220" alt="Screenshot 2024-05-30 at 16 22 17" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4054981f-1105-4b2a-8a99-4ce174a79a41">
 
    
-6. Specify the block by opening a an Excel sheet type B(number from 1 to 5), e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv
+- Specify the block by opening a an Excel sheet type B(number from 1 to 5), e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv
    
    <img width="264" alt="Screenshot 2024-05-30 at 16 13 44" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/adc955f8-1cad-44e0-8566-f1fd7aebf09a">
 
-Final folder strucure should look like this:
+- The final folder strucure should look like this:
 
 <img width="661" alt="Screenshot 2024-05-30 at 16 14 39" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/cb2b1a6d-36c0-4055-8003-4377d14a116f">
 
