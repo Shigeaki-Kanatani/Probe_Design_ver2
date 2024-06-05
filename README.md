@@ -1,7 +1,7 @@
 # In situ HCR_Probe_Design_ver2
 
 ## 1. Introduction
-This program is a version 2 of the Probe_Design_script used for the whole brain in situ hybridization method (Kanatani et al., biorxiv, 2024).ver2. It’s has mMore convenient probe design workflow than the version1.
+This program is version 2 of the probe design script used for the whole brain in situ hybridization method (Kanatani et al., biorxiv, 2024). It has a more convenient probe design workflow than version 1.
 
 Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
 Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, Jacob Lercke Skytte, Lea Lydolph Larsen, Daisuke H. Tanaka, Dagmara Kaczynska, Keishiro Fukumoto, Naofumi Uesaka, Tsutomu Tanabe, Ayako Miyakawa, Urmas Roostalu, Jacob Hecksher-Sørensen, Per Uhlén
@@ -12,9 +12,9 @@ The overall workflow of the script is
 2.	Perform BLAST and remove similar sequences
 3.	Run the script here to have probe sequences
 
-Here, we shows the practical example of how to use this script below. (The example was done at 2024-May-30)
+Here, we shows the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done at 2024-May-30)
    
-Example1, Mouse Gad1 gene, 
+## Example1, Mouse Gad1 gene, 
 It has 10 isoform at mRNA level, so pick the longest one which is 
 mRNA reference sequence NM_001420099, 3561 bp
 
@@ -75,7 +75,7 @@ ATAATAACTAGATCTCCTGTAATTTTGTAGTAGTATATGACCAATCTCTGTGACTCGCTTAGCTGAAACC
 TAAGGCAATGTTTCTGAAGACCTCCGATACACTGACCAGTCCCACAAGTGTTTTTGAAGACATGAAACCC
 ACACTGTGCATTTAGGGTGTGCAAGAAGAATATAAATAAAATAAAAAATATTCTCCATGAA
 
-Example2, Tph2 gene, mRNA reference sequence NM_173391.3, 2626 bp
+## Example2, Tph2 gene, mRNA reference sequence NM_173391.3, 2626 bp
 
 https://www.ncbi.nlm.nih.gov/nuccore/NM_173391.3
 
