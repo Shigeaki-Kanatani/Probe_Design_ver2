@@ -17,6 +17,14 @@ https://www.ncbi.nlm.nih.gov/gene
 
 Download the FASTA sequences of your targets. The followings are the example of Gad1 and Tph2 from mouse (Mus musculus).
 
+Make a folder structure as below and save the FASTA sequence(.fasta).
+
+   Main folder: Gene_name_organism
+      Save the fasta file with the corresponding accession ID ended in .fasta
+      Subfolder: Blast
+   
+2. 
+
 ### Mouse Gad1 gene 
 It had 10 isoform at mRNA level. Here we picked the longest one which was 
 mRNA reference sequence NM_001420099, 3561 bp
@@ -125,13 +133,7 @@ AGGGATTTGCTTCAGTTAGGTCTGATGAGATGTGCCATGGTCATAAGCCACTGCCCTTTTATGTTGGACA
 TCTGACAAGTCTACTGTAGTGTACATGCATGTTTATGTATTGACACAGAAAGAAAATTATTGCTTATAAA
 ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
-## 2. Make a folder structure as below:
-
-   Main folder: Gene_name_organism
-      Save the fasta file with the corresponding accession ID ended in .fasta
-      Subfolder: Blast
-   
-2. Perform BLAST sequence similarity check:
+## 2. Perform BLAST sequence similarity check
 
 - 2.1. Go to NCBI gbast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
 - 2.2. Scroll down to the section for "BLAST Genomes" and type the organism which you are interested in (in this case it is Mus musculus (Mouse).  
