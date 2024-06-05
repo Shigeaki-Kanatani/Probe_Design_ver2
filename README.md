@@ -4,7 +4,7 @@ Probe_Design_ver2. More convenient probe design workflow
 1. Obtain reference sequence from NCBI
    If more than one sequence for a transcipt exists, pay attention to pick the longest sequence (varient).
    Always give a priority to the reviewed one is this one exist, if it is not exist, then pick from predicted one.
-   save it as a fasta file in a main folder.
+   save it as a fasta file in a main folder. (2024-May-30)
    
 Example1, Mouse Gad1 gene, 
 It has 10 isoform at mRNA level, so pick the longest one which is 
