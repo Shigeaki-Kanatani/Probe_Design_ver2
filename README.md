@@ -1,14 +1,7 @@
 # In situ HCR_Probe_Design_ver2
 
 ## 1. Introduction
-This program is version 2 of the probe design script used for the whole brain in situ hybridization method (Kanatani S et al., biorxiv, 2024). It has a more convenient probe design workflow than version 1.
-
-### Reference
-Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
-Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, Jacob Lercke Skytte, Lea Lydolph Larsen, Daisuke H. Tanaka, Dagmara Kaczynska, Keishiro Fukumoto, Naofumi Uesaka, Tsutomu Tanabe, Ayako Miyakawa, Urmas Roostalu, Jacob Hecksher-Sørensen, Per Uhlén  
-  
-bioRxiv 2022.12.28.521740; doi: https://doi.org/10.1101/2022.12.28.521740  
-
+This program is version 2 of the probe design script used for the whole brain in situ hybridization method (Kanatani S et al., biorxiv, 2024). It has a more convenient probe design workflow than version 1.  
 
 The overall workflow of the script is
 1.	Obrain reference sequence from NCBI
@@ -16,6 +9,13 @@ The overall workflow of the script is
 3.	Run the script here to have probe sequences
 
 Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done on 2024-May-30)
+
+### Reference
+Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
+Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, Jacob Lercke Skytte, Lea Lydolph Larsen, Daisuke H. Tanaka, Dagmara Kaczynska, Keishiro Fukumoto, Naofumi Uesaka, Tsutomu Tanabe, Ayako Miyakawa, Urmas Roostalu, Jacob Hecksher-Sørensen, Per Uhlén  
+  
+bioRxiv 2022.12.28.521740; doi: https://doi.org/10.1101/2022.12.28.521740  
+
    
 ## Example1, Mouse Gad1 gene, 
 It had 10 isoform at mRNA level. We picked the longest one which was 
