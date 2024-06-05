@@ -1,6 +1,6 @@
 # In situ HCR_Probe_Design_ver2
 
-## 1. Introduction
+## Introduction
 This program is version 2 of the probe design script used for the whole brain in situ hybridization method (Kanatani S et al., biorxiv, 2022). It has a more convenient probe design workflow than version 1.  
 
 The overall workflow of the script is
@@ -10,7 +10,7 @@ The overall workflow of the script is
 
 Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done on 2024-May-30)
 
-## 2. Example 
+## Example 
 
 ### 1. Obtain reference sequence from NCBI
 
