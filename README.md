@@ -10,7 +10,7 @@ The overall workflow of the script is
 
 Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done on 2024-May-30)
 
-## Example 
+## 2. Example 
 
 Visit NCBI Gene page and search the reference sequences of your target mRNAs.  
 https://www.ncbi.nlm.nih.gov/gene
