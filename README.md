@@ -1,6 +1,6 @@
 # In situ HCR_Probe_Design_ver2
 
-##1. Introduction
+## 1. Introduction
 This program is a version 2 of the Probe_Design_script used for the whole brain in situ hybridization method (Kanatani et al., biorxiv, 2024).ver2. It’s has mMore convenient probe design workflow than the version1.
 
 Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
