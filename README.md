@@ -136,7 +136,7 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
 Here, we run BLAST using the FASTA sequence downloaded. The following steps are described below.
 - Run Blast
-- Download result
+- Download results
 - Extract the sequence regions excluded for probe design
 
 #### Run Blast
@@ -152,18 +152,21 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 
 <img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f">
 
-- 2.7. From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (step-2). Also save the html file as the record in that folder.
+### Download results
 
-3.1. First page that appears (by default Discription Tab):
+- From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (step-2). Also save the html file as the record in that folder.
+
+- First page that appears (by default Discription Tab):
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4">
 
-3.2. After clicking on the "Alignments" tab:
+- After clicking on the "Alignments" tab:
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/327106bc-f5c3-402f-b543-439e56ca2cab">
 
+### Extract the sequence regions excluded for probe design
 
-5. specify the regions which are not used for probe design:
+- specify the regions which are not used for probe design:
    
    5.1. In the html file (or blast result page step: 3.2.) Check the column specifies the percent identity and look down and find the rows that are below 100%:
    
