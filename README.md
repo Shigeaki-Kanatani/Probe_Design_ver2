@@ -134,15 +134,21 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
 ### 2. Perform BLAST sequence similarity check
 
-- 2.1. Go to NCBI gbast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
-- 2.2. Scroll down to the section for "BLAST Genomes" and type the organism which you are interested in (in this case it is Mus musculus (Mouse).  
-- 2.3. After typing the Mouse, another webpage opens which brings you to the blast webpage:  
-- 2.4. https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=OGP__10090__9559&LINK_LOC=blasthome  
-- 2.5. Paste a fasta sequence that you obtained from step 1 in "Enter Query Sequence" section.  
-   - 2.5.1. Then, under the "Choose Search Set" -> Database tab, choose RefSeq RNA.  
-   - 2.5.2. Under the "Program Selection" tab, choose "Somewhat similar sequences (blastn)" algorithm.  
+Here, we run BLAST using the FASTA sequence downloaded. The following steps are described below.
+- Run Blast
+- Download result
+- Extract the sequence regions excluded for probe design
+
+#### Run Blast
+- Go to NCBI gbast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
+- Scroll down to the section for "BLAST Genomes" and type the organism which you are interested in (in this case it is Mus musculus (Mouse).  
+- After typing the Mouse, another webpage opens which brings you to the blast webpage:  
+- https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=OGP__10090__9559&LINK_LOC=blasthome  
+- Paste a fasta sequence that you obtained from step 1 in "Enter Query Sequence" section.  
+   - Then, under the "Choose Search Set" -> Database tab, choose RefSeq RNA.  
+   - Under the "Program Selection" tab, choose "Somewhat similar sequences (blastn)" algorithm.  
    - Optional: you can mark on "Show results in a new window". This opens your blast results in another window.  
-- 2.6. Other setting is default
+- Other setting is default
 
 <img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f">
 
@@ -182,8 +188,7 @@ Final folder strucure should look like this:
 
 <img width="661" alt="Screenshot 2024-05-30 at 16 14 39" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/cb2b1a6d-36c0-4055-8003-4377d14a116f">
 
-7. Run the MATLAB script and make a table
-
+## 3. Run the script here to have probe sequences
 
 ## Authors
 
