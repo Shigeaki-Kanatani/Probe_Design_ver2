@@ -15,10 +15,10 @@ The overall workflow of the script is
 2.	Perform BLAST and remove similar sequences
 3.	Run the script here to have probe sequences
 
-Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done at 2024-May-30)
+Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done on 2024-May-30)
    
 ## Example1, Mouse Gad1 gene, 
-It has 10 isoform at mRNA level, so pick the longest one which is 
+It had 10 isoform at mRNA level. We picked the longest one which was 
 mRNA reference sequence NM_001420099, 3561 bp
 
 https://www.ncbi.nlm.nih.gov/nuccore/NM_001420099.1
@@ -124,7 +124,7 @@ AGGGATTTGCTTCAGTTAGGTCTGATGAGATGTGCCATGGTCATAAGCCACTGCCCTTTTATGTTGGACA
 TCTGACAAGTCTACTGTAGTGTACATGCATGTTTATGTATTGACACAGAAAGAAAATTATTGCTTATAAA
 ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
-2. Make a folder structure as bellow:
+## 2. Make a folder structure as below:
 
    Main folder: Gene_name_organism
       Save the fasta file with the corresponding accession ID ended in .fasta
