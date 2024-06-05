@@ -174,21 +174,15 @@ Here, we specify the regions that are excluded from probe design due to similari
    
 <img width="1015" alt="Screenshot 2024-05-30 at 15 51 21" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/556d0489-2a5e-4e6e-99c2-9f0e60cc879f">
 
-<br>
+<img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05"><br>
 
-- Mark them or highlight them in csv file you downloaded earlier in step 3, then save the file for the record in the same folder with the name of highlighted version in .xls
+- Mark them or highlight them in csv file you downloaded earlier, then save the file for the record in the same folder with the name of highlighted version in .xls.
 - Confirm what transcripts you want to remove.
-- Copy and paste this region into another Excel sheet and save it in the csv file in the main folder with ExcludeRegion.csv (step 1).
-   
-<img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05">
-
-<br>
-
+- Copy and paste this region into another Excel sheet and save it in the csv file in the main folder with ExcludeRegion.csv (step 1).   
 - The ExcludeRegion.csv file should look like this:
    
-   <img width="220" alt="Screenshot 2024-05-30 at 16 22 17" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4054981f-1105-4b2a-8a99-4ce174a79a41">
+   <img width="220" alt="Screenshot 2024-05-30 at 16 22 17" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4054981f-1105-4b2a-8a99-4ce174a79a41"><br>
 
-   
 - Specify the block by opening an Excel sheet type B(number from 1 to 5), e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv
    
    <img width="264" alt="Screenshot 2024-05-30 at 16 13 44" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/adc955f8-1cad-44e0-8566-f1fd7aebf09a">
