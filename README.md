@@ -1,10 +1,18 @@
-# Probe_Design_ver2
-Probe_Design_ver2. More convenient probe design workflow
+# In situ HCR_Probe_Design_ver2
 
-1. Obtain reference sequence from NCBI
-   If more than one sequence for a transcipt exists, pay attention to pick the longest sequence (varient).
-   Always give a priority to the reviewed one is this one exist, if it is not exist, then pick from predicted one.
-   save it as a fasta file in a main folder. (2024-May-30)
+##1. Introduction
+This program is a version 2 of the Probe_Design_script used for the whole brain in situ hybridization method (Kanatani et al., biorxiv, 2024).ver2. It’s has mMore convenient probe design workflow than the version1.
+
+Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
+Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, Jacob Lercke Skytte, Lea Lydolph Larsen, Daisuke H. Tanaka, Dagmara Kaczynska, Keishiro Fukumoto, Naofumi Uesaka, Tsutomu Tanabe, Ayako Miyakawa, Urmas Roostalu, Jacob Hecksher-Sørensen, Per Uhlén
+bioRxiv 2022.12.28.521740; doi: https://doi.org/10.1101/2022.12.28.521740
+
+The overall workflow of the script is
+1.	Obrain reference sequence from NCBI
+2.	Perform BLAST and remove similar sequences
+3.	Run the script here to have probe sequences
+
+Here, we shows the practical example of how to use this script below. (The example was done at 2024-May-30)
    
 Example1, Mouse Gad1 gene, 
 It has 10 isoform at mRNA level, so pick the longest one which is 
