@@ -150,21 +150,17 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
    - Optional: you can mark on "Show results in a new window". This opens your blast results in another window.  
 - Other setting is default
 
-<img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f">
-
-<br>
+<img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f"><br>
 
 ### Download results
 
 - From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (See folder structure in Step No.1). Also save the html file as the record in that folder.
 
-- First page that appears (by default Discription Tab):
-
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4"><br>
 
 - After clicking on the "Alignments" tab:
 
-<img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/327106bc-f5c3-402f-b543-439e56ca2cab">
+<img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/327106bc-f5c3-402f-b543-439e56ca2cab"><br>
 
 ### Extract the sequence regions excluded for probe design
 
@@ -172,7 +168,7 @@ Here, we specify the regions that are excluded from probe design due to similari
    
 - In the HTML file or blast result, check the column specifies the percent identity and look down and find the rows that are below 100%:
    
-<img width="1015" alt="Screenshot 2024-05-30 at 15 51 21" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/556d0489-2a5e-4e6e-99c2-9f0e60cc879f">
+<img width="1015" alt="Screenshot 2024-05-30 at 15 51 21" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/556d0489-2a5e-4e6e-99c2-9f0e60cc879f"><br>
 
 <img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05"><br>
 
@@ -183,11 +179,11 @@ Here, we specify the regions that are excluded from probe design due to similari
    
    <img width="220" alt="Screenshot 2024-05-30 at 16 22 17" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4054981f-1105-4b2a-8a99-4ce174a79a41"><br>
 
-- Specify the block by opening an Excel sheet type B(number from 1 to 5), e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv
+- Specify the hairpin type by making an Excel sheet having e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv as shown in the image below.
    
-   <img width="264" alt="Screenshot 2024-05-30 at 16 13 44" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/adc955f8-1cad-44e0-8566-f1fd7aebf09a">
+   <img width="264" alt="Screenshot 2024-05-30 at 16 13 44" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/adc955f8-1cad-44e0-8566-f1fd7aebf09a"><br>
 
-- The final folder strucure should look like this:
+- The final folder structure should look like this:
 
 <img width="661" alt="Screenshot 2024-05-30 at 16 14 39" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/cb2b1a6d-36c0-4055-8003-4377d14a116f">
 
