@@ -132,15 +132,15 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 
 ## 2. Perform BLAST sequence similarity check
 
-2.1. Go to NCBI gbast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
-2.1. Scroll down to the section for "BLAST Genomes" and type the organism which you are interested in (in this case it is Mus musculus (Mouse).  
-2.1. After typing the Mouse, another webpage opens which brings you to the blast webpage:  
-2.1. https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=OGP__10090__9559&LINK_LOC=blasthome  
-2.1. Paste a fasta sequence that you obtained from step 1 in "Enter Query Sequence" section.  
-   2.1.1. Then, under the "Choose Search Set" -> Database tab, choose RefSeq RNA.  
-   2.1.1. Under the "Program Selection" tab, choose "Somewhat similar sequences (blastn)" algorithm.  
-   Optional: you can mark on "Show results in a new window". This opens your blast results in another window.  
-2.1. Other setting is default
+- 2.1. Go to NCBI gbast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
+- 2.2. Scroll down to the section for "BLAST Genomes" and type the organism which you are interested in (in this case it is Mus musculus (Mouse).  
+- 2.3. After typing the Mouse, another webpage opens which brings you to the blast webpage:  
+- 2.4. https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=OGP__10090__9559&LINK_LOC=blasthome  
+- 2.5. Paste a fasta sequence that you obtained from step 1 in "Enter Query Sequence" section.  
+   - 2.5.1. Then, under the "Choose Search Set" -> Database tab, choose RefSeq RNA.  
+   - 2.5.2. Under the "Program Selection" tab, choose "Somewhat similar sequences (blastn)" algorithm.  
+   - Optional: you can mark on "Show results in a new window". This opens your blast results in another window.  
+- 2.6. Other setting is default
 
 <img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f">
 
