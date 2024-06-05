@@ -12,7 +12,7 @@ Here, we show the practical example of how to use this script below using a mous
 
 ## Example 
 
-Visit NCBI Gene page and search the reference sequences of your target mRNAs.
+Visit NCBI Gene page and search the reference sequences of your target mRNAs.  
 https://www.ncbi.nlm.nih.gov/gene
 
 ### Mouse Gad1 gene 
