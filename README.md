@@ -140,7 +140,7 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 - Extract the sequence regions excluded for probe design
 
 #### Run Blast
-- Go to NCBI gbast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
+- Go to NCBI Blast home page: https://blast.ncbi.nlm.nih.gov/Blast.cgi  
 - Scroll down to the section for "BLAST Genomes" and type the organism which you are interested in (in this case it is Mus musculus (Mouse).  
 - After typing the Mouse, another webpage opens which brings you to the blast webpage:  
 - https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=OGP__10090__9559&LINK_LOC=blasthome  
@@ -154,7 +154,7 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
 
 ### Download results
 
-- From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (See folder structure in Step No.1). Also save the html file as the record in that folder.
+- From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (see folder structure in step No.1). Also save the html file as the record in that folder.
 
 <img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4"><br>
 
@@ -173,7 +173,7 @@ Here, we specify the regions that are excluded from probe design due to similari
 <img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05"><br>
 
 - Mark them or highlight them in csv file you downloaded earlier, then save the file for the record in the same folder with the name of highlighted version in .xls.
-- Confirm what transcripts you want to remove.
+- Confirm which transcript sequences you want to remove.
 - Copy and paste this region into another Excel sheet and save it in the csv file in the main folder with ExcludeRegion.csv (step 1).   
 - The ExcludeRegion.csv file should look like this:
    
@@ -185,7 +185,7 @@ Here, we specify the regions that are excluded from probe design due to similari
 
 - The final folder structure should look like this:
 
-<img width="661" alt="Screenshot 2024-05-30 at 16 14 39" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/cb2b1a6d-36c0-4055-8003-4377d14a116f">
+<img width="661" alt="Screenshot 2024-05-30 at 16 14 39" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/cb2b1a6d-36c0-4055-8003-4377d14a116f"><br>
 
 ## 3. Run the script here to have probe sequences
 
