@@ -182,12 +182,17 @@ Final folder strucure should look like this:
 7. Run the MATLAB script and make a table
 
 
+## Authors
 
+Shigeaki Kanatani  
+Razieh Karamzadeh
 
 ### Reference
 Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
 Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, Jacob Lercke Skytte, Lea Lydolph Larsen, Daisuke H. Tanaka, Dagmara Kaczynska, Keishiro Fukumoto, Naofumi Uesaka, Tsutomu Tanabe, Ayako Miyakawa, Urmas Roostalu, Jacob Hecksher-Sørensen, Per Uhlén  
   
 bioRxiv 2022.12.28.521740; doi: https://doi.org/10.1101/2022.12.28.521740  
+
+
 
    
