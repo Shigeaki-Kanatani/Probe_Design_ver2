@@ -11,7 +11,7 @@ The overall workflow of the script is
 Here, we show the practical example of how to use this script below using a mouse Gad1 and Tph2 mRNA. (The example was done on 2024-May-30)
 
 ## Example1, Mouse Gad1 gene, 
-It had 10 isoform at mRNA level. We picked the longest one which was 
+It had 10 isoform at mRNA level. Here we picked the longest one which was 
 mRNA reference sequence NM_001420099, 3561 bp
 
 https://www.ncbi.nlm.nih.gov/nuccore/NM_001420099.1
