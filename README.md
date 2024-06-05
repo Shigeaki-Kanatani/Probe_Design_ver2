@@ -130,8 +130,8 @@ ATGAATGCTTCTCAATAAACAGAATCTTGCCCCCAA
 - 2.3. After typing the Mouse, another webpage opens which brings you to the blast webpage:  
 - 2.4. https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&BLAST_SPEC=OGP__10090__9559&LINK_LOC=blasthome  
 - 2.5. Paste a fasta sequence that you obtained from step 1 in "Enter Query Sequence" section.  
-   2.5.1. Then, under the "Choose Search Set" -> Database tab, choose RefSeq RNA.  
-   2.5.2. Under the "Program Selection" tab, choose "Somewhat similar sequences (blastn)" algorithm.  
+   - 2.5.1. Then, under the "Choose Search Set" -> Database tab, choose RefSeq RNA.  
+   - 2.5.2. Under the "Program Selection" tab, choose "Somewhat similar sequences (blastn)" algorithm.  
    Optional: you can mark on "Show results in a new window". This opens your blast results in another window.  
 - 2.6. Other setting is default
 
