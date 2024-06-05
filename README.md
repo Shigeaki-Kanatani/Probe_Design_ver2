@@ -3,9 +3,11 @@
 ## 1. Introduction
 This program is version 2 of the probe design script used for the whole brain in situ hybridization method (Kanatani et al., biorxiv, 2024). It has a more convenient probe design workflow than version 1.
 
+<Reference>
 Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
 Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, Jacob Lercke Skytte, Lea Lydolph Larsen, Daisuke H. Tanaka, Dagmara Kaczynska, Keishiro Fukumoto, Naofumi Uesaka, Tsutomu Tanabe, Ayako Miyakawa, Urmas Roostalu, Jacob Hecksher-Sørensen, Per Uhlén
-bioRxiv 2022.12.28.521740; doi: https://doi.org/10.1101/2022.12.28.521740
+bioRxiv 2022.12.28.521740 
+doi: https://doi.org/10.1101/2022.12.28.521740
 
 The overall workflow of the script is
 1.	Obrain reference sequence from NCBI
