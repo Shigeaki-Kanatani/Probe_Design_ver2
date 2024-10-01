@@ -148,7 +148,7 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
    - Then, under the "Choose Search Set" -> Database tab, choose RefSeq RNA.  
    - Under the "Program Selection" tab, choose "Somewhat similar sequences (blastn)" algorithm.  
    - Optional: you can mark on "Show results in a new window". This opens your blast results in another window.  
-- Other setting is default
+- Other settings are default
 
 <img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f"><br>
 
@@ -168,8 +168,9 @@ Here, we specify the regions that are excluded from probe design due to similari
 
 <img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05"><br>
 
-- Mark them or highlight them in csv file you downloaded earlier, then save the file for the record in the same folder with the name of highlighted version in .xls.
-- Confirm which transcript sequences you want to remove.
+- In the csv file downloaded earlier, highlight the corresponding regions of the query transcript that show allignment (columns G and H in the csv file). These are the regions we want to exclude from being targeted during probe design, to prevent non-specific probe binding.
+- For good record keeping, save this highlighted file within the Blast folder as an xls file and a txt file. 
+- Confirm which transcript sequences you want to remove (columns G and H for 
 - Copy and paste this region into another Excel sheet and save it in the csv file in the main folder with ExcludeRegion.csv (step 1).   
 - The ExcludeRegion.csv file should look like this:
    
@@ -182,6 +183,10 @@ Here, we specify the regions that are excluded from probe design due to similari
 - The final folder structure should look like this:
 
 <img width="661" alt="Screenshot 2024-05-30 at 16 14 39" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/cb2b1a6d-36c0-4055-8003-4377d14a116f"><br>
+
+- NOTE: in MacOS the csv file from the Hit Allignment may open incorrectly in Excel - where the columns are not separated. In this case, select column A and go to data > text to columns > Delimited > comma > general > finish. This should open the data in the correct format, but check the formatting is as you expect.
+- NOTE: when choosing the RefSeq transcript, mutliple results may come up for a particular transcript, that differ in annotation status. A transcript that begins with the  "NM_" prefix indicates that it has been reviewed and is well-supported by experimental data. A transcript that begins with the "XM_" prefix is a computationally predicted variant based on genomic data but has not been experimentally confirmed. Therefore, always choose the "NM" transcript if available. This means that "XM" predicted variants of the transcripts may have longer sequences and therefore less than 100% identity with the query transcript, but these regions of allignment should not be excluded from probe design. Therefore, when downloading the Hit Allignment file, it is best to deselect these transcripts, as shown:
+
 
 ## 3. Run the script here to have probe sequences
 
