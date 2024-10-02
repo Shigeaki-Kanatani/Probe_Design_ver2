@@ -187,6 +187,8 @@ Here, we specify the regions that are excluded from probe design due to similari
 - NOTE: in MacOS the csv file from the Hit Allignment may open incorrectly in Excel - where the columns are not separated. In this case, select column A and go to data > text to columns > Delimited > comma > general > finish. This should open the data in the correct format, but check the formatting is as you expect.
 - NOTE: when choosing the RefSeq transcript, mutliple results may come up for a particular transcript, that differ in annotation status. A transcript that begins with the  "NM_" prefix indicates that it has been reviewed and is well-supported by experimental data. A transcript that begins with the "XM_" prefix is a computationally predicted variant based on genomic data but has not been experimentally confirmed. Therefore, always choose the "NM" transcript if available. This means that "XM" predicted variants of the transcripts may have longer sequences and therefore less than 100% identity with the query transcript, but these regions of allignment should not be excluded from probe design. Therefore, when downloading the Hit Allignment file, it is best to deselect these transcripts, as shown:
 
+<img width="1322" alt="Deselect_predicted_variants" src="https://github.com/user-attachments/assets/6f492ebb-30f7-46e3-b0e5-59c4b2980f45">
+
 
 ## 3. Run the script here to have probe sequences
 
