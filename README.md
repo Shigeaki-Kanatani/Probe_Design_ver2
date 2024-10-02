@@ -150,13 +150,13 @@ Here, we run BLAST using the FASTA sequence downloaded. The following steps are 
    - Optional: you can mark on "Show results in a new window". This opens your blast results in another window.  
 - Other settings are default
 
-<img width="1288" alt="Screenshot 2024-05-30 at 15 17 26" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/2334032a-5d88-4e1c-91cd-4a9c8a8c6d0f"><br>
+![BLAST settings](images/BLAST_settings.png)
 
 ### Download results
 
 - From "Alignments" tab, click on Download on the right corner of the window and download hit table files both in txt and csv in sub-folder Blast (see folder structure in step No.1). Also save the entire web page as html file for the record in that folder.
 
-<img width="1295" alt="Screenshot 2024-05-30 at 15 22 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4d4e4927-d2aa-4c33-a7f0-5734bc2607d4"><br>
+![BLAST result](images/BLAST_result.png)
 
 ### Extract the sequence regions excluded for probe design
 
@@ -164,9 +164,9 @@ Here, we specify the regions that are excluded from probe design due to similari
    
 - In the HTML file or blast result, check the column specifies the percent identity and look down and find the rows that are below 100%:
    
-<img width="1015" alt="Screenshot 2024-05-30 at 15 51 21" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/556d0489-2a5e-4e6e-99c2-9f0e60cc879f"><br>
+![Extract the sequences to be excluded](images/Extract_sequences_excluded.png)
 
-<img width="987" alt="Screenshot 2024-05-30 at 16 00 23" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/c36a6f91-c6f5-4a01-b009-307b22211e05"><br>
+![Highlight excluded regions](images/Highlight_excluded_regions_in_csv_file.png)
 
 - In the csv file downloaded earlier, highlight the corresponding regions of the query transcript that show allignment (columns G and H in the csv file). These are the regions we want to exclude from being targeted during probe design, to prevent non-specific probe binding.
 - For good record keeping, save this highlighted file within the Blast folder as an xls file and a txt file. 
@@ -174,28 +174,39 @@ Here, we specify the regions that are excluded from probe design due to similari
 - Copy and paste this region into another Excel sheet and save it in the csv file in the main folder with ExcludeRegion.csv (step 1).   
 - The ExcludeRegion.csv file should look like this:
    
-   <img width="220" alt="Screenshot 2024-05-30 at 16 22 17" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/4054981f-1105-4b2a-8a99-4ce174a79a41"><br>
+![Excluded regions final](images/Excluded_regions_final.png)
 
 - Specify the hairpin type by making an Excel sheet having e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv as shown in the image below.
    
-   <img width="264" alt="Screenshot 2024-05-30 at 16 13 44" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/adc955f8-1cad-44e0-8566-f1fd7aebf09a"><br>
+![Specify hairpin type](images/Specify_hairpin_type.png)
 
 - The final folder structure should look like this:
 
-<img width="661" alt="Screenshot 2024-05-30 at 16 14 39" src="https://github.com/Shigeaki-Kanatani/Probe_Design_ver2/assets/40339288/cb2b1a6d-36c0-4055-8003-4377d14a116f"><br>
+![Final folder structure](images/Final_folder_structure.png)
 
 - NOTE: in MacOS the csv file from the Hit Allignment may open incorrectly in Excel - where the columns are not separated. In this case, select column A and go to data > text to columns > Delimited > comma > general > finish. This should open the data in the correct format, but check the formatting is as you expect.
 - NOTE: when choosing the RefSeq transcript, mutliple results may come up for a particular transcript, that differ in annotation status. A transcript that begins with the  "NM_" prefix indicates that it has been reviewed and is well-supported by experimental data. A transcript that begins with the "XM_" prefix is a computationally predicted variant based on genomic data but has not been experimentally confirmed. Therefore, always choose the "NM" transcript if available. This means that "XM" predicted variants of the transcripts may have longer sequences and therefore less than 100% identity with the query transcript, but these regions of allignment should not be excluded from probe design. Therefore, when downloading the Hit Allignment file, it is best to deselect these transcripts, as shown:
 
-<img width="1322" alt="Deselect_predicted_variants" src="https://github.com/user-attachments/assets/6f492ebb-30f7-46e3-b0e5-59c4b2980f45">
-
+![Deselect predicted variants](images/Deselect_predicted_variants.png)
 
 ## 3. Run the script here to have probe sequences
+
+1. Download the zipped file from this repository
+2. Open zipped file in matlab, it should open like this:
+3. In the command window, assign the input and output files
+The input file is the final folder structure created above. This should be assigned to the variable FASTA_dir like this `FASTA_dir = ('file_path')`
+The output file is the file you want the results to be stored in. This should be created on your desktop, and assigned to the variable out_dir like this `out_dir = ('file_path')`
+Ensure the variables are correctly assigned by checking the workspace.
+4. Copy the code line `probe_design_main_Github(FASTA_dir, out_dir)` from the editor to the command window. Press enter, and the code will run
+5. Check the output file, the output files should look like this:
+
+## Troubleshooting
 
 ## Authors
 
 Shigeaki Kanatani  
 Razieh Karamzadeh
+Abigail Walton
 
 ## Reference
 Whole-Brain Three-Dimensional Imaging of RNAs at Single-Cell Resolution
