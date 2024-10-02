@@ -192,13 +192,29 @@ Here, we specify the regions that are excluded from probe design due to similari
 ## 3. Run the script here to have probe sequences
 
 1. Download the zipped file from this repository
-2. Open zipped file in matlab, it should open like this:
-3. In the command window, assign the input and output files
-The input file is the final folder structure created above. This should be assigned to the variable FASTA_dir like this `FASTA_dir = ('file_path')`
-The output file is the file you want the results to be stored in. This should be created on your desktop, and assigned to the variable out_dir like this `out_dir = ('file_path')`
+ ![Download zipped file](images/Download_zipped_file.png)
+
+2. Open zipped file in matlab
+
+ ![Open zipped file](images/Open_zipped_file.png)
+
+3. Click on probe_design_main_Github.m. This will open the main script in the editor.
+
+![Open main code](images/Open_main_code.png)
+   
+4. In the command window, assign the input and output files
+The input file is the final folder structure created above.   This should be assigned to the variable FASTA_dir like this `FASTA_dir = ('file_path')`
+The output file is the file you want the results to be stored in.   This should be created on your desktop, and assigned to the variable out_dir like this `out_dir = ('file_path')`
+
 Ensure the variables are correctly assigned by checking the workspace.
-4. Copy the code line `probe_design_main_Github(FASTA_dir, out_dir)` from the editor to the command window. Press enter, and the code will run
-5. Check the output file, the output files should look like this:
+
+![Specify variables](images/Specify_variables.png)
+
+5. Copy the code line `probe_design_main_Github(FASTA_dir, out_dir)` from the editor to the command window. Press enter, and the code will run.
+   
+6. Check the output file, the output files should look like this:
+
+![Output file structure](images/Output_file_structure.png)
 
 ## Troubleshooting
 
