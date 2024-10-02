@@ -203,8 +203,10 @@ Here, we specify the regions that are excluded from probe design due to similari
 ![Open main code](images/Open_main_code.png)
    
 4. In the command window, assign the input and output files
-The input file is the final folder structure created above.   This should be assigned to the variable FASTA_dir like this `FASTA_dir = ('file_path')`
-The output file is the file you want the results to be stored in.   This should be created on your desktop, and assigned to the variable out_dir like this `out_dir = ('file_path')`
+   
+The input file is the final folder structure created above.   This should be assigned to the variable FASTA_dir like this `FASTA_dir = 'file_path'; % Replace 'file_path' with the actual path`
+
+The output file is the file you want the results to be stored in.   This should be created on your desktop, and assigned to the variable out_dir like this `out_dir = 'file_path'; % Replace 'file_path' with the actual path`
 
 Ensure the variables are correctly assigned by checking the workspace.
 
