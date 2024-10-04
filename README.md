@@ -218,6 +218,10 @@ Ensure the variables are correctly assigned by checking the workspace.
 
 ![Output file structure](images/Output_file_structure.png)
 
+## 4. Ordering
+
+The Excel file "opool_probe_sheet.xlsx' is the file for ordering the designed probes. Please submit it to the Oligo pool (oPool oligo) in IDT (Integrated DNA Technologies).
+
 ## Troubleshooting
 
 ## Authors
