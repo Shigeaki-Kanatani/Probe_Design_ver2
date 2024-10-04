@@ -176,7 +176,7 @@ Here, we specify the regions that are excluded from probe design due to similari
    
 ![Excluded regions final](images/Excluded_regions_final.png)
 
-- Specify the hairpin type by making an Excel sheet having e.g. B1, and then save the file in csv format with the name of B((number from 1 to 5)).csv as shown in the image below.
+- Specify the hairpin type by making an Excel sheet having e.g. B1, and then save the file in txt format with the name of B((number from 1 to 5)).txt as shown in the image below.
    
 ![Specify hairpin type](images/Specify_hairpin_type.png)
 
