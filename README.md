@@ -236,6 +236,9 @@ Shigeaki Kanatani, Judith C. Kreutzmann, Yue Li, Zoe West, Danai Vougesi Nikou, 
   
 bioRxiv 2022.12.28.521740; doi: https://doi.org/10.1101/2022.12.28.521740  
 
+## Disclaimer of Warranty
+This software is provided "as-is", without any express or implied warranty. 
+In no event shall the authors be held liable for any damages arising from the use of the software.
 
 
    
