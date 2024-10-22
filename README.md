@@ -16,6 +16,9 @@ Here, we show the practical example of how to use this script below using a mous
 
 - Visit NCBI Gene page and search the reference sequences of your target mRNAs.  
    - https://www.ncbi.nlm.nih.gov/gene
+   - select 'nucleotide' in the dropdown menu to give the raw sequence data for the transcript, including variants. The sequences can also be obtained using the 'gene' search, but this result gives a more broad overview of the gene function.
+ 
+![GAD1 search results](images/GAD1_search_results.png)
 
 - Download the FASTA sequences of your targets. The followings are the example of Gad1 and Tph2 from mouse (Mus musculus).
 
