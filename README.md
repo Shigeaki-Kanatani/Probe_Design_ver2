@@ -173,7 +173,7 @@ Here, we specify the regions that are excluded from probe design due to similari
 
 - In the csv file downloaded earlier, highlight the corresponding regions of the query transcript that show allignment (columns G and H in the csv file). These are the regions we want to exclude from being targeted during probe design, to prevent non-specific probe binding.
 - For good record keeping, save this highlighted file within the Blast folder as an xls file and a txt file. 
-- Confirm which transcript sequences you want to remove (columns G and H for 
+- Confirm which transcript sequences you want to remove (columns G and H) 
 - Copy and paste this region into another Excel sheet and save it in the csv file in the main folder with ExcludeRegion.csv (step 1).   
 - The ExcludeRegion.csv file should look like this:
    
