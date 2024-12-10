@@ -230,14 +230,16 @@ The Excel file "opool_probe_sheet.xlsx' is the file for ordering the designed pr
 Common errors that will prevent the code running include:
 
 1. Incorrect naming of files or wrong file structure: This code reads the input files from the current folder. If the file structure is not organized correctly or the required files are misplaced, MATLAB will throw a "file not found" or "undefined function or variable" error.
+   
 2. Saving the wrong file type: Similarly, this code is reading for specific file types. Check to ensure you haven't accidentally saved a 'csv' file as a 'txt' file, for example.
-3. An unusual hairpin type: This code is written for the five originally published hairpin types from the original isHCR paper (https://www.nature.com/articles/nbt.1692#Sec10) - B1, B2, B3, B4 and B5. If you want to use a different hairpin type - i.e one you have designed yourself, or one from one of these more recently hairpin sequences (https://doi.org/10.1093/nar/gkae592), you must input the sequence on lines 12 and 18, in probe_design_version3_HCR.m, in the same format as the other hairpin types:
+   
+3. An unusual hairpin type: This code is written for the five originally published hairpin types from the original isHCR paper (https://www.nature.com/articles/nbt.1692#Sec10) - B1, B2, B3, B4 and B5. If you want to use a different hairpin type - i.e one you have designed yourself, or one from one of these more recently published hairpin sequences (https://doi.org/10.1093/nar/gkae592), you must input the sequence on lines 12 and 18, in probe_design_version3_HCR.m, in the same format as the other hairpin types:
 
-![Add hairpin sequence] (images/Add_hairpin_sequence.png)
+![Add hairpin sequence](images/Add_hairpin_sequence.png)
 
 Then, you must add two lines of code to the loop between lines 21 to 33 of probe_design_version3_HCR.m. This loop assigns the specific hairpin sequences (hairpin_odd and hairpin_even) based on the value of the variable hairpin_type, such that they can be appended to the designed probes. Use the same format as for the other hairpin types:
 
-![Add hairpin loop] (images/Add_hairpin_loop.png)
+![Add hairpin loop](images/Add_hairpin_loop.png)
 
 ## Authors
 Shigeaki Kanatani  
