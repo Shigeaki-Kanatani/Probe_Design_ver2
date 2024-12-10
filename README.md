@@ -227,8 +227,15 @@ The Excel file "opool_probe_sheet.xlsx' is the file for ordering the designed pr
 
 ## Troubleshooting
 
-## Authors
+Common errors that will prevent the code running include:
 
+1. Incorrect naming of files or wrong file structure: This code reads the input files from the current folder. If the file structure is not organized correctly or the required files are misplaced, MATLAB will throw a "file not found" or "undefined function or variable" error.
+2. Saving the wrong file type: Similarly, this code is reading for specific file types. Check to ensure you haven't accidentally saved a 'csv' file as a 'txt' file, for example.
+3. An unusual hairpin type: This code is written for the five originally published hairpin types from the original isHCR paper (https://www.nature.com/articles/nbt.1692#Sec10) - B1-B5, and for a hairpin we designed, which we called B6. If you want to use a different hairpin type - i.e one you have designed yourself, or one from one of these more recently hairpin sequences (https://doi.org/10.1093/nar/gkae592), you must input the sequence here:
+
+<img width="346" alt="Screenshot 2024-12-10 at 15 57 08" src="https://github.com/user-attachments/assets/f0c432f8-9412-4320-85a0-3d2fbff3ad3a">
+
+## Authors
 Shigeaki Kanatani  
 Razieh Karamzadeh  
 Abigail Walton
